@@ -1,6 +1,6 @@
 package object;
 
-public class quiz_1 {
+public class quiz_bus_subway {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -17,6 +17,13 @@ public class quiz_1 {
 		student2.showInfo();
 		bus.showInfo();
 		subway.showInfo();
+		
+		Taxi taxi = new Taxi();
+
+		student1.setMoney(15000);
+		student1.takeTaxi(taxi);
+		student1.showInfo();
+		taxi.showInfo();
 	}
 
 }

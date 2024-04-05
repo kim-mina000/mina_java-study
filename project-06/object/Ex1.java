@@ -93,6 +93,16 @@ class Student2 {
 		subway.take(1500);
 		this.money  -= 1500;
 	}
+	// 택시 탑승 추가
+	public void takeTaxi(Taxi taxi) {
+		if ( this.money < 10000) {
+			System.out.println("잔액이 부족합니다.");
+			return;
+		} else {
+			taxi.take(10000);			
+			this.money  -= 10000;
+		}
+	}
 	public void showInfo() {
 		System.out.println(name+"님의 남은 돈은  "+money+"원 입니다.");	
 	}
