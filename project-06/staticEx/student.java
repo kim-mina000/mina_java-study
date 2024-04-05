@@ -1,10 +1,7 @@
 package staticEx;
 
 public class student {
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
-	}
 }
 class Student {
 	static int count = 0; // 공통속성
