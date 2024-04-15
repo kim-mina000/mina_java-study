@@ -7,3 +7,20 @@ public class Ex3 {
 	}
 
 }
+class Parents {
+	final void method1() {
+		
+	}
+	void method2() {
+		
+	}
+}
+
+class Child extends Parents {
+
+	@Override
+	void method2() {
+		super.method2();
+	}
+	
+}
