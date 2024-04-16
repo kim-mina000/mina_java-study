@@ -1,6 +1,6 @@
 package main;
 
-public class Ex {
+public class Ex01 {
 
 	public static void main(String[] args) {
 //		Calc calc = new Calc();
