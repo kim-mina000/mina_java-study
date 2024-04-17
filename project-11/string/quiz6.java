@@ -14,7 +14,7 @@ public class quiz6 {
 			String str = scanner.nextLine();
 			if (str.toLowerCase().indexOf("end") >= 0) {
 				break;
-			} else {
+			} else {	
 				list.add(str);
 			}
 		}
