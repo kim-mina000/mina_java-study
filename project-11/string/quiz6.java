@@ -12,9 +12,16 @@ public class quiz6 {
 		while(true) {
 			System.out.println("문자열을 입력해 주세요 (종료: end 입력) ");
 			String str = scanner.nextLine();
-			if (str.toLowerCase().indexOf("end") >= 0) {
-				break;
-			} else {	
+			
+//			if (str.toLowerCase().indexOf("end") >= 0) {
+//				break;
+//			} else {	
+//				list.add(str);
+//			}
+			
+			if (str.equals("end") || str.equals("END")) {
+				break;	
+			} else {
 				list.add(str);
 			}
 		}
