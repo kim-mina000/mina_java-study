@@ -1,9 +1,9 @@
-package mainA;
+package main;
 
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class softeer {
+public class XmarksTheSpot {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
@@ -20,9 +20,9 @@ public class softeer {
 			str[i]=s;
 			
 			for (int j = 0; j <str[i].length(); j++) {
-				if(str[i].indexOf('x') >= 0) {
-				} else {
+				if(str[i].indexOf('x') < 0) {
 					System.out.println("x가 포함되어있지 않습니다");
+					
 				}
 			}
 			int index = str[i].indexOf('x');
@@ -32,6 +32,7 @@ public class softeer {
 
 		System.out.println(Arrays.toString(str));
 		System.out.println(result);
+		
 	}
 
 }
