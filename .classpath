@@ -13,6 +13,7 @@
 	<classpathentry kind="src" path="project-08"/>
 	<classpathentry kind="src" path="project-10"/>
 	<classpathentry kind="src" path="project-11"/>
+	<classpathentry kind="src" path="A"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17">
 		<attributes>
 			<attribute name="module" value="true"/>
