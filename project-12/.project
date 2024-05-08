@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>mina_java-study</name>
+	<name>project-12</name>
 	<comment></comment>
 	<projects>
-		<project>project-12</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

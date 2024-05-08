@@ -8,6 +8,7 @@ public class quiz2 {
 		HashMap<String, Integer> hashMapList = new HashMap<>();
 		
 		hashMapList.put("국어", 80);
+		
 		hashMapList.put("수학", 90);
 		hashMapList.put("영어", 100);
 		
