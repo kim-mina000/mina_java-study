@@ -43,16 +43,16 @@ interface MyNumber{
 // 구현 클래스 만들기!
 class MySort implements MyNumber{
 
-//	@Override
-//	public int max(int x, int y) {
-//		int tmp = x;
-//		tmp = x > y? x : y;
-//		return tmp;
-//	}
-	
 	@Override
 	public int max(int x, int y) {
-		return Math.max(x, y);
+		int tmp = x;
+		tmp = x > y? x : y;
+		return tmp;
 	}
+	
+//	@Override
+//	public int max(int x, int y) {
+//		return Math.max(x, y);
+//	}
 	
 }
